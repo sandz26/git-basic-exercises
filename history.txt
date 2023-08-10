@@ -1,0 +1,62 @@
+    1  sudo apt update
+    2  apt list --upgradable
+    3  cd root
+    4  git branch -a
+    5  mkdir git-basic-exercises
+    6  cd git-basic-exercises
+    7  ls -a
+    8  git init
+    9  git config --global init.defaultBranch main
+   10  git branch
+   11  git status
+   12  git branch -m main
+   13  git status
+   14  git init
+   15  ls -a
+   16  git status
+   17  git log
+   18  git add
+   19  git add README.md
+   20  git reset HEAD README.md
+   21  git status
+   22  git commit -m "initial commit"
+   23  git log
+   24  q
+   25  git log
+   26  q
+   27  nano README.md
+   28  cat README.md
+   29  git status
+   30  git commit -m "second commit"
+   31  git status
+   32  git add README.md
+   33  git status
+   34  git commit -m "second commit"
+   35  nano README.md
+   36  cat README.md
+   37  git status
+   38  git add README.md
+   39  git status
+   40  git commit -m "third commit"
+   41  git log
+   42  exit
+   43  git checkout f1a587881e29b1e08c6a8a9cf93c2babb127573b
+   44  git branch
+   45  cd git-basic-exercises
+   46  git checkout f1a587881e29b1e08c6a8a9cf93c2babb127573b
+   47  cat README.md
+   48  git checkout main
+   49  cat README.md
+   50  git branch
+   51  git branch milkshake-flavours
+   52  git branch
+   53  git checkout milkshake-flavours
+   54  nano milkshakes.md
+   55  git status
+   56  git commit -am "added initial flavours"
+   57  git add milkshakes.md
+   58  git commit -am "added initial flavours"
+   59  git log
+   60  git checkout main
+   61  git checkout -b history
+   62  history > history.txt
