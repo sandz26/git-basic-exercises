@@ -1,2 +1,1 @@
-Strawberry,banana,vanilla
-
+Strawberry,banana,milk
